@@ -6,5 +6,4 @@ package il.ac.kinneret.mjmay;public class Gradling {
     public static int add(int a, int b) {
         return a + b;
     }
-
 }
