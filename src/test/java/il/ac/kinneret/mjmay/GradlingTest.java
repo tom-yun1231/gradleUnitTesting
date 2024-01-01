@@ -15,4 +15,9 @@ public class GradlingTest {
     public void add() {
         assertEquals(7, Gradling.add(3,4));
     }
+
+    @Test
+    public void addFail() {
+        assertEquals(8, Gradling.add(3,4));
+    }
 }
